@@ -1,6 +1,12 @@
 a {
     text-decoration: none;
 }
+body
+{
+font-family: sans-serif;
+}
+
+
 p {
     color: red;
     font-size: 20px;
@@ -44,6 +50,24 @@ p {
  .pic
      {
      border-radius: 10px 20px 30px 40px;
-     width = 250px;
+     width: 250px;
 
+     }
+
+ .input
+     {
+     border-radius: 10px;
+     height:  30px;
+     width:  400px;
+     border: 2px solid grey;
+     font-size: 14px;
+     outline: none;
+     }
+ .btn
+     {
+     padding: 15px 25px
+     border-radius: 5px;
+     border: 2px solid grey;
+     font-size: 14px;
+     outline: none;
      }
